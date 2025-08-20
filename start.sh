@@ -6,13 +6,13 @@ export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
 
 # //哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-'nezha.97553557.cf'}
-export NEZHA_KEY=${NEZHA_KEY:-'vTAiveEXgTlrn7ZMDB'}
+export NEZHA_KEY=${NEZHA_KEY:-'8BuVcIiIyEWWpxXc56'}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # //节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'hy2'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
-# export UUID=${UUID:-'51d3fded-ec79-410f-a876-f17d91da459e'} # 去掉#可以使用固定值，否则随机
+# export UUID=${UUID:-'5775e4dc-671e-475c-b82f-67ce58dad4d1'} # 去掉#可以使用固定值，否则随机
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
